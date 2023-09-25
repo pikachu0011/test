@@ -1,0 +1,90 @@
+.main-text{
+    display: flex;
+font-family: Inconsolata;
+font-size: 24px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-align: left;
+
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+}
+
+@media (max-width: 750px){
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+
+   
+}
+
+
+.Scarecrow-img{
+width: 100%;
+
+}
+
+.contenedor-texto{
+  display: flex;
+  flex-direction: column;
+   
+    
+}
+
+
+
+.contenedor-texto-principal{
+    display: flex;
+    
+    
+
+}
+
+.badnews-text{
+    display: flex;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left; 
+    
+    margin-bottom: 0px;
+
+   
+}
+
+
+
+
+.middle-text{
+    display: inline-block;
+    font-family: Space Mono;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.035em;
+text-align: left;
+width: 381px;
+
+}
+
+
+
+.home-button{
+    
+    width: 190px;
+height: 68px;
+background-color: black;
+color: white;
+border-style: none;
+font-family: Space Mono;
+font-size: 14px;
+font-weight: 700;
+
+}
